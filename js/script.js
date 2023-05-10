@@ -25,7 +25,7 @@ const validarFormulario = (e) => {
         case "apellido":
             validarCampo(expresiones.apellido, e.target, "apellido");
         break;
-        case "correo":
+        case "email":
             validarCampo(expresiones.correo, e.target, "correo");
         break;
         case "telefono":
@@ -64,7 +64,7 @@ $inputs.forEach((input) => {
 
 
 $formulario.addEventListener("submit", (e) => {
-    e.preventDefault();
+   // e.preventDefault();
 
     const $terminos = document.getElementById("terminos");
     if(campos.nombre && campos.apellido && campos.correo && campos.telefono && campos.comentarios && $terminos.checked) {
