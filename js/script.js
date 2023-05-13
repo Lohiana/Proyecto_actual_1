@@ -6,7 +6,7 @@ const expresiones = {
     apellido: /^[a-zA-ZÀ-ÿ\s]{3,16}$/, 
     correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/, 
     telefono: /^\d{7,14}$/, 
-    comentarios: /^[a-zA-ZÀ-ÿ\s]{20,140}$/, 
+    comentarios: /^[a-zA-ZÀ-ÿ\s(),!¡¿?.]{20,140}$/
 }
 
 const campos = {
@@ -69,7 +69,7 @@ $formulario.addEventListener("submit", (e) => {
     const $terminos = document.getElementById("terminos");
     if(campos.nombre && campos.apellido && campos.correo && campos.telefono && campos.comentarios && $terminos.checked) {
      
-
+        $formulario.submit()
         document.getElementById("formulario__mensaje-exito").classList.add("formulario__mensaje-exito-activo");
         setTimeout(() => {
             document.getElementById("formulario__mensaje-exito").classList.remove("formulario__mensaje-exito-activo");
