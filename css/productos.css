@@ -1,0 +1,57 @@
+body {
+    background: #fff;
+    color: #000;
+    margin: 1rem;
+}
+
+
+
+
+
+.productos-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Playfair Display', serif;
+}
+
+.productos-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.recetas-img {
+  height: auto;
+  padding: 3rem;
+  border-radius: 3px;
+}
+
+.lista {
+  width: 40%;
+  padding: 1rem;
+
+}
+
+
+
+.navegacion {
+padding: 10px;
+}
+
+.contenedor-principal {
+    width: 90%;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 2px solid #f7c8e0;
+    box-shadow: 0 2px 10px #f7c8e0, 0 2px 10px #f7c8e0;
+}
+
+
+main {
+padding: 20px;
+} 
