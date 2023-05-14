@@ -84,9 +84,6 @@ header a {
     transition: 0.5s;
   }
   
-  header a:focus {
-    color: rgb(243, 39, 192);
-  }
 
 .fa-instagram {
     color: rgb(243, 39, 192);
