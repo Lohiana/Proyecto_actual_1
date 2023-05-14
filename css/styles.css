@@ -114,7 +114,7 @@ header a {
 footer {
     color: #343a40;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color:#f5d1d7;
@@ -126,7 +126,7 @@ footer {
   
 span {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
