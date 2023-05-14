@@ -124,7 +124,7 @@
     align-items: end;
     justify-content: center;
   
-    background-image: url("/img/muffins.jpg");
+    background-image: url("../img/muffins.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
