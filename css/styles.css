@@ -118,6 +118,7 @@ header a:focus{
   }
   
 footer {
+    color: #000;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -133,6 +134,7 @@ span {
   }
   
   #copyright_section {
+    color: #000;
     background-color: #f7c8e0;
     font-family: "PT Serif", serif;
     text-align: center;
