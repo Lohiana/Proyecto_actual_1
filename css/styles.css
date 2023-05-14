@@ -120,11 +120,11 @@ header a:focus{
 footer {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    border: rgb(222, 94, 94) solid 1px;
-    color: #4f443e;
-    background-color: #f5d1d7;
-    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.2rem;
+    gap: 1rem;
       }
   
 span {
