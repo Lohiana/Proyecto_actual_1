@@ -84,9 +84,6 @@ header a {
     transition: 0.5s;
   }
   
-  header a:focus {
-    color: none;
-  }
 
 .fa-instagram {
     color: rgb(243, 39, 192);
@@ -193,7 +190,7 @@ color: #b93c7d;
     left: 0;
 }
 
-.nav-toggle:focus:not(:focus-visible) {
+.nav-toggle: {
     outline: none;
 }
 }
