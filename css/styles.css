@@ -58,6 +58,7 @@ text-decoration: none;
     border-radius: 3px;
 }
 
+
 .nav-toggle{
     color: white;
     background: none;
@@ -114,16 +115,22 @@ footer {
     color: #343a40;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     background-color:#f5d1d7;
     margin-top: 10px;
+    width: 100%;
+    margin-bottom: 0.2rem;
+    gap: 1rem;
       }
   
 span {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: 100%;
     gap: 1rem;
-    height: 50px;
   }
   
   #copyright_section {
