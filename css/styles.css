@@ -58,11 +58,6 @@ text-decoration: none;
     border-radius: 3px;
 }
 
-.nav-menu-link:hover{
-background-color: #f7c8e0;
-transition: 0.5s;
-}
-
 .nav-toggle{
     color: white;
     background: none;
@@ -190,7 +185,7 @@ color: #b93c7d;
     left: 0;
 }
 
-.nav-toggle: {
+.nav-toggle:focus:not(:focus-visible) {
     outline: none;
 }
 }
