@@ -77,15 +77,16 @@ transition: 0.5s;
 header a {
     text-decoration: none;
     color: black;
-}
-header a:hover{
-    color: white;
-    font-weight: bold;
-}
-
-header a:focus{
+  }
+  header a:hover {
     color: rgb(243, 39, 192);
-}
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  
+  header a:focus {
+    color: rgb(243, 39, 192);
+  }
 
 .fa-instagram {
     color: rgb(243, 39, 192);
@@ -118,7 +119,7 @@ header a:focus{
   }
   
 footer {
-    color: #000;
+    color: #4f443e;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -134,7 +135,7 @@ span {
   }
   
   #copyright_section {
-    color: #000;
+    color: #4f443e;;
     background-color: #f7c8e0;
     font-family: "PT Serif", serif;
     text-align: center;
