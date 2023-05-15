@@ -81,34 +81,40 @@ header a {
   }
   
 
-.fa-instagram {
+  .fa-instagram {
     color: rgb(243, 39, 192);
-    font-size: 20px;
+    font-size: 30px;
   }
   
-.fa-square-facebook {
+  .fa-square-facebook {
     color: rgb(17, 17, 137);
-    font-size: 20px;
+    font-size: 30px;
   }
   
-.fa-youtube {
+  .fa-youtube {
     color: red;
-    font-size: 20px;
+    font-size: 30px;
   }
   
-.fa-instagram:hover {
+  .fa-instagram:hover {
     color: rgb(243, 118, 228);
-    font-size: 30px;
+  
+    font-size: 35px;
+    transition: 0.2s ease-out;
   }
   
-.fa-square-facebook:hover {
+  .fa-square-facebook:hover {
     color: rgb(8, 8, 46);
-    font-size: 30px;
+  
+    font-size: 35px;
+    transition: 0.2s ease-out;
   }
   
-.fa-youtube:hover {
+  .fa-youtube:hover {
     color: rgb(239, 99, 99);
-    font-size: 30px;
+  
+    font-size: 35px;
+    transition: 0.2s ease-out;
   }
   
 footer {
@@ -119,7 +125,7 @@ footer {
     background-color:#f5d1d7;
     width: 100%;
     margin-bottom: 0.2rem;
-    margin-top: 10px;
+    margin-top: 20px;
     }
    
  span {
