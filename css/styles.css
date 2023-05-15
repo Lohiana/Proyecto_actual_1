@@ -80,7 +80,6 @@ header a {
     transition: 0.5s;
   }
   
-
   .fa-instagram {
     color: rgb(243, 39, 192);
     font-size: 30px;
@@ -145,6 +144,30 @@ footer {
     box-sizing: border-box;
 }
 
+@media (max-width: 900px){
+
+    .nav{
+        justify-content: space-evenly;
+        max-width: 700px;
+    }
+    
+    .nav-logo{
+        margin-right: 10px;
+        padding: 0;
+    }
+    
+    .nav-menu{
+       margin-right: 15px;
+       padding: 0;
+    }
+    
+    .nav-menu-item{
+       margin: 0 2px;
+       padding: 0;
+    }
+    
+}
+
 @media (max-width: 768px) {
     
 body{
@@ -159,6 +182,7 @@ body{
 .nav-logo{
     width: 65px;
     height: 65px;
+    margin-right: auto;
     }
 
 .nav-menu{
