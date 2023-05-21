@@ -138,7 +138,7 @@ main {
 }
 
 
-.formulario__grupo-correcto .formulario__validacion-estado{
+.formulario__grupo-correcto {
     color: #29ee0f;
     opacity: 1;
 }
@@ -148,7 +148,7 @@ main {
 }
 
 
-.formulario__grupo-incorrecto .formulario__validacion-estado{
+.formulario__grupo-incorrecto {
     color: #ee0f0f;
     opacity: 1;
 }
